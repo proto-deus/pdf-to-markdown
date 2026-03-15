@@ -2,7 +2,7 @@
 
 A Python script that converts PDF documents to Markdown format using an OpenAI compatible api endpoint. It features intelligent image extraction, OCR post-processing, and configurable settings.
 
-As an side note, I would suggest to everyone to use [datalab/marker](https://github.com/datalab-to/marker) first. It is far superior to this project. I made this script because for some documents, Marker can produce long repeated sections of text makeing the MD output unusable. I use this script to convert these files for now.
+As a side note, I would suggest to everyone to use [datalab/marker](https://github.com/datalab-to/marker) first. It is far superior to this project. I made this script because for some documents, Marker can produce long repeated sections of text makeing the MD output unusable. I use this script to convert these files for now.
 
 ---
 
@@ -86,7 +86,7 @@ Create a `config.json` file in the project root. Below is the **complete default
 | Parameter | Default | Description |
 |-------|-----|-------|
 | `max_context_tokens` | `4096` | Maximum tokens allowed per LLM request. Truncates text if exceeded. |
-| `chunk_overlap_tokens` `200` | (Reserved for future chunking logic) Overlap between text chunks. |
+| `chunk_overlap_tokens` | `200` | (Reserved for future chunking logic) Overlap between text chunks. |
 | `save_images` | `true` | Whether to extract and save images found in PDFs. |
 | `filter_images_by_llm` | `true` | If `true`, uses a vision model to decide if an image is relevant (charts/diagrams) or irrelevant (headers/TOC). |
 | `image_prefix` | `img` | Prefix for saved image filenames (e.g., `img_1_cover.jpg`). |
