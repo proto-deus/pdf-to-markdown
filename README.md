@@ -264,7 +264,7 @@ output/
 
 ```
 ┌──────────┐     ┌──────────────┐     ┌──────────────┐     ┌────────────┐
-│  Input   │────▶│  Extract     │───▶│  Build       │────▶│  Convert   │
+│  Input   │───▶│  Extract      │───▶│  Build       │───▶│  Convert   │
 │  PDFs    │     │  text &      │     │  page        │     │  via LLM   │
 │          │     │  images      │     │  batches     │     │            │
 └──────────┘     └──────────────┘     └──────────────┘     └────────────┘
@@ -342,16 +342,6 @@ Try:
 - A larger / more capable model.
 - Lowering `temperature` to `0.0`.
 - Increasing `max_context_tokens` so the model gets more context.
-
-### Images are too small or too large in the output
-
-Adjust the image filter thresholds in config:
-
-```json
-"image_min_width": 10,
-"image_min_height": 10,
-"image_white_ratio_threshold": 0.99
-```
 
 ## Requirements file
 
