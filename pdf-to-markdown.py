@@ -739,7 +739,7 @@ class PDFProcessor:
                 # Method 1: Check if image covers most of the page
                 coverage_threshold = self.img_page_coverage_threshold
                 if is_likely_scanned:
-                    coverage_threshold = min(coverage_threshold, 0.85)  # Use at most 85% for scanned pages
+                    coverage_threshold = min(coverage_threshold, 0.80)
 
                 if coverage_ratio > coverage_threshold:
                     should_skip = True
@@ -752,8 +752,8 @@ class PDFProcessor:
                     should_skip = True
                     skip_reason = "full-page background positioning"
 
-                # Method 3: Check if image is the only image and covers >85% of page
-                elif len(img_list) == 1 and coverage_ratio > 0.85:
+                # Method 3: Check if image is the only image and covers >80% of page
+                elif len(img_list) == 1 and coverage_ratio > 0.80:
                     should_skip = True
                     skip_reason = "single image covering >50% of page"
 
