@@ -21,6 +21,7 @@
     "ocr_language": "eng",
     "ocr_preprocess": true,
     "ocr_dpi_scale": 3.0,
+    "image_page_coverage_threshold": 0.8,
     "image_min_width": 15,
     "image_min_height": 15,
     "image_min_aspect_ratio": 0.02,
