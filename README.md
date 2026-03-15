@@ -11,7 +11,6 @@ As a side note, I would suggest to everyone to use [datalab-to/marker](https://g
 - **PDF Parsing**: Extracts text and images from PDF files using PyMuPDF.
 - **LLM-Powered Conversion**: Leverages LLMs to convert raw text into clean, formatted Markdown.
 - **Smart Text Reflow**: Detects column layouts and reflows text into standard paragraph formats automatically.
-- **Heading Deduplication**: Prevents duplicate headings across multiple pages by converting subsequent occurrences to bold text.
 - **Intelligent Image Handling**:
   - Saves relevant images (charts, graphs, diagrams) to an `images/` subdirectory.
   - Uses geometric and pixel-density heuristics to filter out irrelevant images (headers, footers, icons).
