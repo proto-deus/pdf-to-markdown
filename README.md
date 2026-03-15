@@ -76,7 +76,6 @@ Create a `config.json` file in the project root. Below is the **complete default
 ####  Settings
 
 | Parameter | Default | Description |
-|-----------|------|---------|-------------|
 | `base_url` | `http://localhost:11434/v1` | The API endpoint. |
 | `api_key` | `api-key` | Authentication key. |
 | `model` | `llama-3.2` | The model name loaded for text and image processing conversion. |
@@ -84,7 +83,6 @@ Create a `config.json` file in the project root. Below is the **complete default
 #### `conversion` (Processing Settings)
 
 | Parameter | Default | Description |
-|-----------|------|---------|-------------|
 | `max_context_tokens` | `4096` | Maximum tokens allowed per LLM request. Truncates text if exceeded. |
 | `chunk_overlap_tokens` `200` | (Reserved for future chunking logic) Overlap between text chunks. |
 | `save_images` | `true` | Whether to extract and save images found in PDFs. |
@@ -96,7 +94,6 @@ Create a `config.json` file in the project root. Below is the **complete default
 #### `input_output` (I/O Settings)
 
 | Parameter | Default | Description |
-|-----------|------|---------|-------------|
 | `input_path` | `.` | Path to a PDF file or a directory containing PDFs. |
 | `output_path` | `output` | Directory where converted Markdown files will be saved. |
 | `recursive` | `true` | If `input_path` is a directory, recursively search subdirectories for PDFs. |
