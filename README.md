@@ -110,7 +110,6 @@ Create a `config.json` in the project root (or copy from the example below):
         "ocr_language": "eng",
         "ocr_preprocess": true,
         "ocr_dpi_scale": 3.0,
-        "image_page_coverage_threshold": 0.8,
         "image_min_width": 15,
         "image_min_height": 15,
         "image_min_aspect_ratio": 0.02,
@@ -159,7 +158,6 @@ Create a `config.json` in the project root (or copy from the example below):
 | `ocr_preprocess` | `true` | Apply contrast/binarisation before OCR. Requires `numpy`. |
 | `ocr_dpi_scale` | `3.0` | Render scale for OCR images. Higher = more accurate but slower. |
 | `image_min_width` | `15` | Minimum image width (in PDF points) before rejection. |
-| `image_page_coverage_threshold": 0.8` | `0.8` | Amount of page coverage for a single image to be ignored. |
 | `image_min_height` | `15` | Minimum image height (in PDF points) before rejection. |
 | `image_min_aspect_ratio` | `0.02` | Minimum width/height ratio. Filters ultra-thin lines. |
 | `image_max_aspect_ratio` | `50` | Maximum width/height ratio. Filters ultra-wide strips. |
