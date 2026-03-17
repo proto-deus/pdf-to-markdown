@@ -169,7 +169,7 @@ Create or edit `config.json`:
 
 ### Configuration Notes
 
-As the script has no way of knowing exactly how large the output from the model will be for each prompt so some space needs to be given to ensure there is no context overflow or cutoffs. 
+As the script has no way of knowing exactly how large the output from the model will be for each prompt, some space needs to be given to ensure there is no context overflow or cutoffs. 
 Some ways to prevent Overflow/cutoffs:
 
 - Ensure that max_context_tokens is half or lower than half of your max context window and lower the max_tokens_response value.
