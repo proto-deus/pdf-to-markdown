@@ -326,7 +326,7 @@ output/
 | `generate_toc` | `true` | Generate table of contents |
 | `show_page_breaks` | `false` | Add page break markers in output |
 | `force_ocr` | `false` | Force OCR on all pages |
-| `ocr_language` | `eng` | Tesseract OCR language code |
+| `ocr_language` | `eng` | Tesseract OCR language code (eg. eng+fra) |
 | `image_min_width` | `50` | Min bbox width (points) for pre-filter |
 | `image_min_height` | `50` | Min bbox height (points) for pre-filter |
 | `image_min_aspect_ratio` | `0.02` | Min aspect ratio to consider |
