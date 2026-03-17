@@ -10,7 +10,7 @@
     "save_images": true,
     "filter_images_by_llm": true,
     "batch_pages": true,
-    "batch_fill_ratio": 0.5,
+    "batch_fill_ratio": 0.4,
     "generate_toc": true,
     "show_page_breaks": false,
     "force_ocr": false,
@@ -25,7 +25,7 @@
     "image_jpeg_quality": 80,
     "image_min_size": 1500,
     "temperature": 0.1,
-    "max_tokens_response": 8192,
+    "max_tokens_response": 6144,
     "image_prefix": "img",
     "cover_check_pages": 4
   },
