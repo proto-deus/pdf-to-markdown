@@ -56,12 +56,17 @@ Download from [github.com/UB-Mannheim/tesseract/wiki](https://github.com/UB-Mann
 ### 2. Install Python dependencies
 
 ```bash
+#Clone or download the repository
+git clone https://github.com/proto-deus/Pdf-to-Markdown
 
 #(Recommended) Create venv:
-python -m venv you-venv-name
+python -m venv pdf-to-markdown
 
 #Navigate to your venv
-cd your-venv-name
+cd pdf-to-markdown
+
+#Activate venv
+scrips/activate.bat
 
 #Install requirements
 pip install -r requirements.txt
