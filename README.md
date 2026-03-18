@@ -66,7 +66,10 @@ python -m venv pdf-to-markdown
 cd pdf-to-markdown
 
 #Activate venv
-./scrips/activate.bat
+# Linux / macOS:
+source .venv/bin/activate
+# Windows:
+.venv\Scripts\activate
 
 #Install requirements
 pip install -r requirements.txt
